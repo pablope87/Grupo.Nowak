@@ -1,0 +1,50 @@
+/* variables.css */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+
+/* ----TIPOGRAFÍAS---- */
+
+
+/* Tipografía */
+--fuente-primaria: 'Poppins', sans-serif;
+--fuente-secundaria: 'Merriweather', serif;
+--fuente-monospace: 'Courier New', monospace;
+
+/* Tamaños de texto */
+--tamano-texto-pequeno: 14px;
+--tamano-texto-normal: 16px;
+--tamano-texto-grande: 24px;
+--tamano-texto-titulo: 32px;
+
+
+/* ----PALETA DE COLORES---- */
+
+/* Colores principales */
+--color-primario: #141D26;
+--color-secundario: #E2E2D2;
+--color-acento: #C51F5D;
+
+/* Colores de fondo */
+--color-fondo: #;
+--color-fondo-secundario: #;
+--color-superficie: #;
+
+/* Colores de texto */
+--color-texto: #;
+--color-texto-secundario: #;
+--color-texto-inverso: #;
+
+/* Colores de estado */
+--color-exito: #28a745;
+--color-error: #dc3545;
+--color-advertencia: #ffc107;
+--color-info: #17a2b8;
+
+/* Colores de bordes y sombras */
+--color-borde: #ced4da;
+--color-borde-hover: #adb5bd;
+--color-sombra: rgba(0, 0, 0, 0.1);
+
+}

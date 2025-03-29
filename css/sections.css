@@ -1,0 +1,57 @@
+/* ----Sections---- */
+
+/* Hero Section */
+
+
+
+
+  /* HERO COREGIDOOOOOOOOO */
+.la-empresa {
+    background: linear-gradient(to bottom, rgba(20, 29, 38, 0) 0%, rgba(20, 29, 38, 1) 100%), url('../img/hero/hero.jpg');
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    color: var(--color-primario);
+    text-align: center;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding: 100px;
+
+
+}
+
+.la-empresa h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.la-empresa p {
+    font-size: 1rem;
+}
+
+
+/* Proyectos destacados */
+#proyectos {
+    background-color: #141D26;
+    height: 50vh;
+}
+
+#proyectos h2 {
+    color: #f8b400;
+}
+
+/* Testimonios */
+#testimonios {
+    background: #1a1a1a;
+    color: white;
+    height: 50vh;
+}
+
+/* Contacto */
+#contacto {
+    background: #f8b400;
+    color: white;
+    height: 50vh;
+}
+

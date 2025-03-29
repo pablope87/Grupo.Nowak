@@ -1,0 +1,64 @@
+/* reset.css - Basado en el Reset de Eric Meyer + mejoras modernas */
+
+/* 1. Eliminar márgenes y padding por defecto en todos los elementos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* 2. Heredar el tamaño de fuente del elemento <html> */
+  html {
+    font-size: 100%; /* 16px por defecto */
+    scroll-behavior: smooth;
+  }
+  
+  /* 3. Aplicar una fuente base y eliminar estilos predeterminados */
+  body {
+    font-family: sans-serif;
+    line-height: 1.6;
+    background-color: #fff;
+    color: #333;
+  }
+  
+  /* 4. Eliminar estilos predeterminados de listas */
+  ul, ol {
+    list-style: none;
+  }
+  
+  /* 5. Eliminar decoraciones de enlaces */
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  /* 6. Eliminar bordes en imágenes y elementos multimedia */
+  img, video {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  /* 7. Resetear los estilos de botones */
+  button, input, textarea, select {
+    font: inherit;
+    border: none;
+    outline: none;
+    background: none;
+  }
+  
+  /* 8. Asegurar que los encabezados no tengan márgenes excesivos */
+  h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+  }
+  
+  /* 9. Evitar problemas de overflow en contenedores */
+  *, *::before, *::after {
+    box-sizing: inherit;
+  }
+  
+  /* 10. Mejorar accesibilidad y compatibilidad con navegadores antiguos */
+  [hidden] {
+    display: none !important;
+  }
+  

@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Grupo Nowak">
+    <meta name="description" content="Descubre oportunidades exclusivas en bienes raíces con Grupo Nowak.">
+    <meta name="keywords" content="Grupo Nowak, inmobiliaria, proyectos inmobiliarios, inversión, bienes raíces, propiedades">
+    <meta name="robots" content="index, follow">
+    <!-- Open Graph (Facebook, LinkedIn, WhatsApp) -->
+    <meta property="og:title" content="Grupo Nowak - Proyectos Inmobiliarios">
+    <meta property="og:description" content="Descubre oportunidades exclusivas en bienes raíces con Grupo Nowak.">
+    <meta property="og:image" content="URL_de_tu_imagen_destacada">
+    <meta property="og:url" content="URL_de_tu_sitio">
+    <meta property="og:type" content="website">
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Grupo Nowak - Proyectos Inmobiliarios">
+    <meta name="twitter:description" content="Descubre oportunidades exclusivas en bienes raíces con Grupo Nowak.">
+    <meta name="twitter:image" content="URL_de_tu_imagen_destacada">
+    <meta name="twitter:url" content="URL_de_tu_sitio">
+    <!-- Favicon -->
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <!-- Title -->
+    <title>Grupo Nowak</title>
+    <!-- Css -->
+    <link rel="stylesheet" href="main.css">
+    <!-- Fontawesome -->
+    <script src="https://kit.fontawesome.com/075ba794c5.js" crossorigin="anonymous"></script> 
+
+
+
+</head>
+<body>
+
+    <header>
+        <nav class="nav">
+            <div class="container">
+                <div class="logo">
+                    <a href="#">Your Logo</a>
+                </div>
+                <div id="mainListDiv" class="main_list">
+                    <ul class="navlinks">
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Portfolio</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <span class="navTrigger">
+                    <i></i>
+                    <i></i>
+                    <i></i>
+                </span>
+            </div>
+        </nav>
+
+
+    
+    <!-- Jquery needed -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    
+    <!-- Function used to shrink nav bar removing paddings and adding black background -->
+        <script>
+            $(window).scroll(function() {
+                if ($(document).scrollTop() > 50) {
+                    $('.nav').addClass('affix');
+                    console.log("OK");
+                } else {
+                    $('.nav').removeClass('affix');
+                }
+            });
+        </script>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <!-- <section class="hero">
+            <div class="hero-content">
+            <h1>Bienvenido a Nuestra Página</h1>
+            <p>Explora nuestro contenido y disfruta de una experiencia única.</p>
+            <a href="#" class="cta-button">Ver más</a>
+            </div>
+        </section>
+     -->
+        <!-- La empresa -->
+        <section class="la-empresa" id="la-empresa">
+            <h2>Sección de Ejemplo</h2>
+            <p>Esta es la sección debajo del hero, que tiene el mismo color de fondo.</p>
+        </section>
+
+        <!-- Sección 3: Proyectos Destacados -->
+        <section id="proyectos">
+            <h2>Proyectos Destacados</h2>
+            <p>Explora nuestras oportunidades exclusivas de inversión.</p>
+        </section>
+
+        <!-- Sección 4: Beneficios -->
+        <section id="beneficios">
+            <h2>¿Por qué elegirnos?</h2>
+            <p>Las mejores ventajas y beneficios para nuestros clientes.</p>
+        </section>
+
+        <!-- Sección 5: Testimonios -->
+        <section id="testimonios">
+            <h2>Testimonios</h2>
+            <p>Lo que nuestros clientes dicen sobre nosotros.</p>
+        </section>
+
+        <!-- Sección 6: Contacto -->
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <p>Comunícate con nosotros para más información.</p>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>&copy; 2025 Grupo Nowak - Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="./js/navbar.js"></script>
+</body>
+</html>

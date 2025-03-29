@@ -1,0 +1,27 @@
+
+/* ---- GLOBAL ---- */
+
+body {
+font-family: var(--fuente-primaria);
+font-size: var(--tamano-texto-normal);
+color: #212529; /* Color de texto */
+background-color: #f8f9fa; /* Fondo claro */
+}
+
+h1, h2, h3 {
+font-family: var(--fuente-primaria);
+
+}
+
+p {
+font-size: var(--tamano-texto-normal);
+line-height: 1.6;
+}
+
+code {
+font-family: var(--fuente-monospace);
+background-color: #e9ecef;
+padding: 4px;
+border-radius: 4px;
+}
+
