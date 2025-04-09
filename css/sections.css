@@ -1,52 +1,88 @@
-/* ----Sections---- */
-
 /* Hero Section */
 
-
-
-
-  /* HERO COREGIDOOOOOOOOO */
-.la-empresa {
+#hero {
     background: linear-gradient(to bottom, rgba(20, 29, 38, 0) 0%, rgba(20, 29, 38, 1) 100%), url('../img/hero/hero.jpg');
     height: 100vh;
+    width: auto;
     background-size: cover;
-    background-position: center;
+    background-position: left;
     color: var(--color-primario);
     text-align: center;
     display: flex;
-    justify-content: left;
+    flex-direction: column;
     align-items: center;
-    padding: 100px;
+}
 
+/* Servicios */
+
+#servicios{
+    background-color: var(--color-primario);
+    height: auto;
+    color: var(--color-blanco);
+    text-align: center;
+}
+
+.card{
+    background-color: var(--color-primario);
+    color: var(--color-blanco);
+    border: none;
+    align-items: center;
 
 }
 
-.la-empresa h2 {
-    font-size: 2.5rem;
-    margin-bottom: 20px;
+.card-ico, img{
+    width: 100px;
+    padding-bottom: 10px;
 }
 
-.la-empresa p {
-    font-size: 1rem;
+#servicios{
+    background-color: var(--color-primario);
+    
 }
 
+/* La Empresa */
+#la-empresa{
+    background-color: var(--color-blanco);
+    height: auto;
+    color: var(--color-primario);
+    text-align: center;
+}
 
-/* Proyectos destacados */
-#proyectos {
-    background-color: #141D26;
+#la-empresa p{
+    color: var(--color-gris-claro);
+}
+
+/* Proyectos*/
+#proyectos{
+    background-color: var(--color-gris-claro2);
     height: 50vh;
 }
 
-#proyectos h2 {
-    color: #f8b400;
+/* Beneficios */
+#beneficios {
+    background-color: var(--color-acento);
+    height: 50vh;
 }
+
 
 /* Testimonios */
-#testimonios {
-    background: #1a1a1a;
-    color: white;
-    height: 50vh;
+#testimonios{
+    background-color: var(--color-blanco);
 }
+
+#testimonios .card{
+    background-color: var(--color-blanco);
+    color: var(--color-gris-claro);
+    text-align: left;
+}
+
+#testimonios .card-body{
+    background-color: var(--color-blanco);
+    color: var(--color-gris-claro);
+    text-align: left;
+    
+}
+
 
 /* Contacto */
 #contacto {

@@ -23,102 +23,213 @@
     <link rel="icon" href="favicon.ico" type="image/x-icon">
     <!-- Title -->
     <title>Grupo Nowak</title>
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
     <!-- Css -->
     <link rel="stylesheet" href="main.css">
+    <!-- CSS SCROLL ANIMATE -->
+
     <!-- Fontawesome -->
     <script src="https://kit.fontawesome.com/075ba794c5.js" crossorigin="anonymous"></script> 
-
-
-
 </head>
+
 <body>
 
-    <header>
-        <nav class="nav">
-            <div class="container">
-                <div class="logo">
-                    <a href="#">Your Logo</a>
-                </div>
-                <div id="mainListDiv" class="main_list">
-                    <ul class="navlinks">
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Portfolio</a></li>
-                        <li><a href="#">Services</a></li>
-                        <li><a href="#">Contact</a></li>
-                    </ul>
-                </div>
-                <span class="navTrigger">
-                    <i></i>
-                    <i></i>
-                    <i></i>
-                </span>
+  <header>
+      <nav class="navbar navbar-expand-lg">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="./img/logo/logo-negro.svg" alt="logo"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav">
+                <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                <a class="nav-link" href="#">La Empresa</a>
+                <a class="nav-link" href="#">Proyectos</a>
+                <a class="nav-link" href="#">Contacto</a>
+              </div>
             </div>
+          </div>
         </nav>
+  </header>
 
+  <main>
+  <!-- Hero-->
+  <section id="hero">
+      <h1 class="title">Tu Hogar, Tu Mejor Inversión.</h1>
+      <h2 class="subtitle">Te ayudamos a encontrar el espacio perfecto para tu futuro.</h2>
+      <button type="button" class="btn">DESCUBRÍ MÁS</button>
+  </section>
 
-    
-    <!-- Jquery needed -->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    
-    <!-- Function used to shrink nav bar removing paddings and adding black background -->
-        <script>
-            $(window).scroll(function() {
-                if ($(document).scrollTop() > 50) {
-                    $('.nav').addClass('affix');
-                    console.log("OK");
-                } else {
-                    $('.nav').removeClass('affix');
-                }
-            });
-        </script>
-    </header>
-
-    <main>
-        <!-- Hero Section -->
-        <!-- <section class="hero">
-            <div class="hero-content">
-            <h1>Bienvenido a Nuestra Página</h1>
-            <p>Explora nuestro contenido y disfruta de una experiencia única.</p>
-            <a href="#" class="cta-button">Ver más</a>
+  <!--Servicios-->
+  <section id="servicios">
+      <h2 class="title">Te Acercamos A Tu Nuevo Hogar</h2>
+      <p class="subtitle-small">Con nuestro equipo de expertos, encontrar la propiedad ideal es más fácil que nunca</p>
+      
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+          <div class="col">
+            <div class="card">
+              <!-- <img src="./img/iconos/1.svg" class="card-img-top card-ico" alt="icono"> -->
+              <div class="card-body">
+                <h5 class="title-small"><i class="bi bi-chat-square-quote-fill fs-1" style="color: var(--color-acento);"></i>ASESORAMIENTO PERSONALIZADO</h5>
+                <p class="subtitle-small">Te guiamos en cada paso del proceso, desde la búsqueda hasta la compra, para que tomes la mejor decisión.</p>
+              </div>
             </div>
-        </section>
-     -->
-        <!-- La empresa -->
-        <section class="la-empresa" id="la-empresa">
-            <h2>Sección de Ejemplo</h2>
-            <p>Esta es la sección debajo del hero, que tiene el mismo color de fondo.</p>
-        </section>
+          </div>
+          <div class="col">
+            <div class="card">
+              <!-- <img src="./img/iconos/2.svg" class="card-img-top card-ico" alt="icono"> -->
+              <div class="card-body">
+                <h5 class="title-small"><i class="bi bi-chat-square-quote-fill fs-1" style="color: var(--color-acento);"></i>BÚSQUEDA DE PROPIEDADES</h5>
+                <p class="subtitle-small">Filtramos y seleccionamos opciones según tus necesidades y presupuesto, ahorrándote tiempo y esfuerzo.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <!-- <img src="./img/iconos/3.svg" class="card-img-top card-ico" alt="icono"> -->
+              <div class="card-body">
+                <h5 class="title-small"><i class="bi bi-chat-square-quote-fill fs-1" style="color: var(--color-acento);"></i>GESTIÓN Y TRÁMITES</h5>
+                <p class="subtitle-small">Nos encargamos de toda la documentación y negociaciones para que tu compra sea segura y sin complicaciones.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      
+  </section>
 
-        <!-- Sección 3: Proyectos Destacados -->
-        <section id="proyectos">
-            <h2>Proyectos Destacados</h2>
-            <p>Explora nuestras oportunidades exclusivas de inversión.</p>
-        </section>
+  <!-- La Empresa -->
+  <section id="la-empresa">
+    <h2 class="title">Nuestra Empresa</h2>
+    <p class="subtitle-small">Con nuestro equipo de expertos, encontrar la propiedad ideal es más fácil que nunca</p>
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <img src="./img/imagenes/la-empresa.jpg" alt="imagen">
+        </div>
+        <div class="col">
+          <h5 class="title-small">VISIÓN</h5>
+          <p class="subtitle-small">Te ayudamos a encontrar el espacio perfecto para tu futuro.</p>
+          <h5 class="title-small">MISIÓN</h3>
+          <p class="subtitle-small">Te ayudamos a encontrar el espacio perfecto para tu futuro.</p>
+          <button type="button" class="btn">CONTACTANOS</button>
+        </div>
+      </div>
+    </div>
+  </section>
 
-        <!-- Sección 4: Beneficios -->
-        <section id="beneficios">
-            <h2>¿Por qué elegirnos?</h2>
-            <p>Las mejores ventajas y beneficios para nuestros clientes.</p>
-        </section>
+  <!-- Proyectos Destacados -->
+  <section id="proyectos">
+    <h2 class="title">Proyectos Recientes</h2>
+    <p class="subtitle-small">Con nuestro equipo de expertos, encontrar la propiedad ideal es más fácil que nunca</p>
 
-        <!-- Sección 5: Testimonios -->
-        <section id="testimonios">
-            <h2>Testimonios</h2>
-            <p>Lo que nuestros clientes dicen sobre nosotros.</p>
-        </section>
+    <div class="container text-center">
+      <div class="row">
+        <div class="col">
+          <img src="./img/imagenes/proyectos1.jpg" alt="">
+        </div>
+        <div class="col">
+          <img src="./img/imagenes/proyectos2.jpg" alt="">
+        </div>
+        <div class="col">
+          <img src="./img/imagenes/proyectos3.jpg" alt="">
+        </div>
+        <div class="col">
+          <img src="./img/imagenes/proyectos4.jpg" alt="">
+        </div>
+      </div>
+    </div>
+  </section>
 
-        <!-- Sección 6: Contacto -->
-        <section id="contacto">
-            <h2>Contacto</h2>
-            <p>Comunícate con nosotros para más información.</p>
-        </section>
-    </main>
+  <!-- Beneficios -->
+  <section id="beneficios">
+    <h2 class="title">Beneficios</h2>
+    <p class="subtitle-small">Con nuestro equipo de expertos, encontrar la propiedad ideal es más fácil que nunca</p>
+  </section>
 
-    <!-- FOOTER -->
-    <footer>
-        <p>&copy; 2025 Grupo Nowak - Todos los derechos reservados.</p>
-    </footer>
+  <!-- Testimonios -->
+  <section id="testimonios">
+    <div class="container">
+        <h2>What Our Clients Say</h2>
+        <div class="row">
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <div class="card-body">
+                        <img src="https://randomuser.me/api/portraits/men/3.jpg" class="rounded-circle mb-3" alt="Client Avatar">
+                        <h5 class="card-title">John Doe</h5>
+                        <p class="card-text">CEO, Company Inc.</p>
+                        <p class="card-text">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed
+                            dapibus leo nec ornare diam."</p>
+                        <div class="text-warning">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-half"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <div class="card-body">
+                        <img src="https://randomuser.me/api/portraits/women/43.jpg" class="rounded-circle mb-3" alt="Client Avatar">
+                        <h5 class="card-title">Jane Smith</h5>
+                        <p class="card-text text-muted">Marketing Director, Agency XYZ</p>
+                        <p class="card-text">"Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                            accusantium doloremque laudantium."</p>
+                        <div class="text-warning">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <div class="card-body text-center">
+                        <img src="https://randomuser.me/api/portraits/men/43.jpg" class="rounded-circle mb-3" alt="Client Avatar">
+                        <h5 class="card-title">Mike Johnson</h5>
+                        <p class="card-text text-muted">Freelance Designer</p>
+                        <p class="card-text">"At vero eos et accusamus et iusto odio dignissimos ducimus qui
+                            blanditiis praesentium voluptatum."</p>
+                        <div class="text-warning">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
-    <script src="./js/navbar.js"></script>
+  <!-- Sección 6: Contacto -->
+  <section id="contacto">
+    <h2 class="title">Contacto</h2>
+    <p class="subtitle-small">Con nuestro equipo de expertos, encontrar la propiedad ideal es más fácil que nunca</p>
+  </section>
+</main>
+
+<!-- FOOTER -->
+<footer>
+  <p>&copy; 2025 Grupo Nowak - Todos los derechos reservados.</p>
+</footer>
+
+
+    <!-- SCRIPTS -->
+    <!-- Navbar -->
+    <script src=""></script>
+    <!-- Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
 </body>
 </html>

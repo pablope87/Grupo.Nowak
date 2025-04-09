@@ -9,14 +9,12 @@
 
 /* Tipografía */
 --fuente-primaria: 'Poppins', sans-serif;
---fuente-secundaria: 'Merriweather', serif;
---fuente-monospace: 'Courier New', monospace;
 
 /* Tamaños de texto */
---tamano-texto-pequeno: 14px;
---tamano-texto-normal: 16px;
---tamano-texto-grande: 24px;
---tamano-texto-titulo: 32px;
+--small: 14px;
+--normal: 16px;
+--medium: 24px;
+--large: 36px;
 
 
 /* ----PALETA DE COLORES---- */
@@ -25,6 +23,10 @@
 --color-primario: #141D26;
 --color-secundario: #E2E2D2;
 --color-acento: #C51F5D;
+--color-gris: #3e3e3e;
+--color-gris-claro: #949393;
+--color-gris-claro2: #f5f5f5;
+--color-blanco: #ffffff;
 
 /* Colores de fondo */
 --color-fondo: #;

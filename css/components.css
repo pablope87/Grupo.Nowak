@@ -1,0 +1,21 @@
+/* Buttons */
+.btn{
+    background-color: var(--color-acento);
+    border-color: var(--color-acento);
+    padding: 10px 30px;
+    font-weight: 600;
+    font-size: var(--small);
+    color: #fff;
+}
+
+.btn:hover{
+    background-color: var(--color-primario);
+    border-color: var(--color-primario);
+    padding: 10px 30px;
+    font-weight: 400;
+    color: var(--color-blanco);
+}
+
+.btn{
+    margin: 30px;
+}
