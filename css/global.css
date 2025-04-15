@@ -25,7 +25,6 @@ font-family: var(--fuente-primaria);
 p{
 font-size: var(--normal);
 line-height: 1.6;
-text-align: center;
 }
 
 /* titles */

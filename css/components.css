@@ -6,16 +6,15 @@
     font-weight: 600;
     font-size: var(--small);
     color: #fff;
+    transition: all 0.4s ease-in-out;
+    margin: 30px;
+
 }
 
 .btn:hover{
     background-color: var(--color-primario);
     border-color: var(--color-primario);
     padding: 10px 30px;
-    font-weight: 400;
+    font-weight: 600;
     color: var(--color-blanco);
-}
-
-.btn{
-    margin: 30px;
 }

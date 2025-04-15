@@ -1,3 +1,15 @@
-.navbar{
-    background-color: var(--color-blanco);
-}
+.navbar {
+    background-color: transparent;
+    transition: background-color 0.3s;
+    z-index: 1050;
+    padding: 10px;
+  }
+  
+  /* Cuando el navbar se vuelve sólido */
+  .navbar.scrolled {
+    background-color: var(--color-primario); /* Color sólido al hacer scroll */
+  }
+  
+
+
+  

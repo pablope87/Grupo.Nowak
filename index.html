@@ -42,31 +42,31 @@
 <body>
 
   <header>
-      <nav class="navbar navbar-expand-lg">
-          <div class="container-fluid">
-            <a class="navbar-brand" href="#"><img src="./img/logo/logo-negro.svg" alt="logo"></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-              <div class="navbar-nav">
-                <a class="nav-link active" aria-current="page" href="#">Inicio</a>
-                <a class="nav-link" href="#">La Empresa</a>
-                <a class="nav-link" href="#">Proyectos</a>
-                <a class="nav-link" href="#">Contacto</a>
-              </div>
-            </div>
+    <nav id="navbar" class="navbar navbar-expand-lg navbar-dark fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img src="./img/logo/logo-negro.svg" alt="logo"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+            <a class="nav-link" href="#">La Empresa</a>
+            <a class="nav-link" href="#">Proyectos</a>
+            <a class="nav-link" href="#">Contacto</a>
           </div>
-        </nav>
+        </div>
+      </div>
+    </nav>
   </header>
-
+  
   <main>
-  <!-- Hero-->
-  <section id="hero">
+    <!-- Hero-->
+    <section id="hero">
       <h1 class="title">Tu Hogar, Tu Mejor Inversión.</h1>
       <h2 class="subtitle">Te ayudamos a encontrar el espacio perfecto para tu futuro.</h2>
       <button type="button" class="btn">DESCUBRÍ MÁS</button>
-  </section>
+    </section>
 
   <!--Servicios-->
   <section id="servicios">
@@ -107,14 +107,15 @@
 
   <!-- La Empresa -->
   <section id="la-empresa">
-    <h2 class="title">Nuestra Empresa</h2>
-    <p class="subtitle-small">Con nuestro equipo de expertos, encontrar la propiedad ideal es más fácil que nunca</p>
+    
     <div class="container">
       <div class="row">
-        <div class="col">
+        <div class="col-md">
           <img src="./img/imagenes/la-empresa.jpg" alt="imagen">
         </div>
-        <div class="col">
+        <div class="col-md">
+          <h2 class="title">Nuestra Empresa</h2>
+          <p class="subtitle-small">Con nuestro equipo de expertos, encontrar la propiedad ideal es más fácil que nunca</p>
           <h5 class="title-small">VISIÓN</h5>
           <p class="subtitle-small">Te ayudamos a encontrar el espacio perfecto para tu futuro.</p>
           <h5 class="title-small">MISIÓN</h3>
@@ -126,23 +127,23 @@
   </section>
 
   <!-- Proyectos -->
-  <section id="proyectos">
+  <section id="proyectos" >
     <h2 class="title">Proyectos Recientes</h2>
     <p class="subtitle-small">Con nuestro equipo de expertos, encontrar la propiedad ideal es más fácil que nunca</p>
 
-    <div class="container text-center">
+    <div class="imagenes">
       <div class="row">
         <div class="col">
-          <img src="./img/imagenes/proyectos1.jpg" alt="">
+          <img src="./img/imagenes/proyectos1.jpg" alt="imagen">
         </div>
         <div class="col">
-          <img src="./img/imagenes/proyectos2.jpg" alt="">
+          <img src="./img/imagenes/proyectos2.jpg" alt="imagen">
         </div>
         <div class="col">
-          <img src="./img/imagenes/proyectos3.jpg" alt="">
+          <img src="./img/imagenes/proyectos3.jpg" alt="imagen">
         </div>
         <div class="col">
-          <img src="./img/imagenes/proyectos4.jpg" alt="">
+          <img src="./img/imagenes/proyectos4.jpg" alt="imagen">
         </div>
       </div>
     </div>
@@ -157,13 +158,13 @@
   <!-- Testimonios -->
   <section id="testimonios">
     <div class="container">
-        <h2>Nuestro clientes dicen</h2>
+      <h2 class="title">Nuestro clientes dicen</h2>
         <div class="row">
             <div class="col-md-4 mb-4">
                 <div class="card">
                     <div class="card-body">
-                        <img src="https://randomuser.me/api/portraits/men/3.jpg" class="rounded-circle mb-3" alt="Client Avatar">
-                        <h5 class="card-title">John Doe</h5>
+                        <img src="./img/avatars/avatar1.png" class="rounded-circle mb-3" alt="Client Avatar">
+                        <h5 class="card-title">Romina Frigman</h5>
                         <p class="card-text  text-muted">CEO, Company Inc.</p>
                         <p class="card-text">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed
                             dapibus leo nec ornare diam."</p>
@@ -180,8 +181,8 @@
             <div class="col-md-4 mb-4">
                 <div class="card">
                     <div class="card-body">
-                        <img src="https://randomuser.me/api/portraits/women/43.jpg" class="rounded-circle mb-3" alt="Client Avatar">
-                        <h5 class="card-title">Jane Smith</h5>
+                        <img src="./img/avatars/avatar2.png" class="rounded-circle mb-3" alt="Client Avatar">
+                        <h5 class="card-title">Lucas Pagani</h5>
                         <p class="card-text text-muted">Marketing Director, Agency XYZ</p>
                         <p class="card-text">"Sed ut perspiciatis unde omnis iste natus error sit voluptatem
                             accusantium doloremque laudantium."</p>
@@ -198,8 +199,8 @@
             <div class="col-md-4 mb-4">
                 <div class="card">
                     <div class="card-body t">
-                        <img src="https://randomuser.me/api/portraits/men/43.jpg" class="rounded-circle mb-3" alt="Client Avatar">
-                        <h5 class="card-title">Mike Johnson</h5>
+                        <img src="./img/avatars/avatar3.png" class="rounded-circle mb-3" alt="Client Avatar">
+                        <h5 class="card-title">Eva Fernandez</h5>
                         <p class="card-text text-muted">Freelance Designer</p>
                         <p class="card-text">"At vero eos et accusamus et iusto odio dignissimos ducimus qui
                             blanditiis praesentium voluptatum."</p>
@@ -220,72 +221,68 @@
   <!-- Sección 6: Contacto -->
 
   <section id="contacto">
-
+    <h3>CONTACTO</h3>
   </section>
 
 <!-- FOOTER -->
 <footer class="footer">
-      
   <div class="container">
     <div class="row">
+
       <div class="col">
-        <a href="#" class="footer-site-logo"><img src="./img/logo/logo-blanco.svg" alt="logo"></a>
-        <p>Te ayudamos a encontrar tu hogar</p>
+        <a href="#" class="footer-site-logo">
+          <img src="./img/logo/logo-blanco.svg" alt="logo">
+        </a>
+        <h5 class="title-small">INFO</h5>
+        <p>+549 110123123</p>
+        <p>contacto@gruponowak.com</p>
+        <p>Av. de Mayo 1234 - CABA</p>
+        <p>Buenos Aires - Argentina</p>
       </div>
+
       <div class="col-md">
         <ul class="nav-links">
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About Us</a></li>
-          <li><a href="#">Portfolio</a></li>
-          <li><a href="#">Services</a></li>
-          <li><a href="#">Contact</a></li>
+          <h5 class="title-small">LINKS</h5>
+          <li><a href="#">Inicio</a></li>
+          <li><a href="#">La Empresa</a></li>
+          <li><a href="#">Proyectos</a></li>
+          <li><a href="#">Contacto</a></li>
         </ul>
       </div>
+
       <div class="col-md">
-        <ul class="nav-links">
-          <li><a href="#">Clients</a></li>
-          <li><a href="#">Team</a></li>
-          <li><a href="#">Career</a></li>
-          <li><a href="#">Testimonials</a></li>
-          <li><a href="#">Journal</a></li>
-        </ul>
-      </div>
-      <div class="col-md">
-        <ul class="nav-links">
-          <li><a href="#">Privacy Policy</a></li>
-          <li><a href="#">Terms &amp; Conditions</a></li>
-          <li><a href="#">Partners</a></li>
-        </ul>
-      </div>
-      <div class="col-md text-md-center">
         <ul class="social">
-          <a href="#"><i class="fab fa-facebook-f"></i></a>
-          <a href="#"><i class="fab fa-instagram"></i></a>
-          <a href="#"><i class="fab fa-x-twitter"></i></a>
-          <a href="#"><i class="fab fa-linkedin-in"></i></a>
+          <h5 class="title-small">REDES SOCIALES</h5>
+          <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+          <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+          <li><a href="#"><i class="fab fa-x-twitter"></i></a></li>
+          <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
         </ul>
         <button type="button" class="btn">CONTACTAR</button>
       </div>
-    </div> 
 
-    <div class="row ">
-      <div class="col-12 text-center">
-        <div class="copyright mt-5 pt-5">
-          <p><small>&copy; 2025 Grupo Nowak. Todos los derechos reservados.</small></p>
+    </div>
+
+    <div class="row">
+      <div class="col">
+        <div class="copyright">
+          <p>&copy; 2025 Grupo Nowak. Todos los derechos reservados.</p>
         </div>
       </div>
-    </div> 
+    </div>
+
   </div>
-  
 </footer>
 
 
 
 
 
-    <!-- SCRIPTS -->
 
-    <!-- Bootstrap -->
+  <!-- SCRIPTS -->
+    <script src="./js/scroll-save.js"></script>
+    <script src="./js/navbar.js"></script>
+  <!-- Bootstrap -->
     
 
 </body>

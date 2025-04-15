@@ -1,0 +1,82 @@
+/* Footer */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.footer {
+    background-color: #000;
+    color: #777;
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+    padding: 2rem 0;
+}
+
+.footer .title-small{
+    color: var(--color-blanco);
+    padding-bottom: 15px;
+    padding-top: 20px;
+}
+
+.footer .footer-site-logo {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+.footer .footer-site-logo img {
+    width: 10rem;
+    padding-bottom: 30px;
+}
+
+.footer .nav-links {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+.footer .nav-links li {
+    margin-bottom: 10px;
+}
+
+.footer .nav-links li a {
+    color: gray;
+    text-decoration: none;
+}
+
+.footer .nav-links li a:hover {
+    color: var(--color-acento);
+}
+
+.footer .social {
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 1rem;
+}
+
+.footer .social li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.footer .social li a {
+    color: gray;
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+
+.footer .social li a:hover {
+    color: var(--color-acento);
+}
+
+
+.footer .copyright p{
+    border-top: 1px solid #272727;
+    margin-top: 2rem;
+    padding-top: 1rem;
+    font-size: var(--small);
+    color: var(--color-gris);
+}

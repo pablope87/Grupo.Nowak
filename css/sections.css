@@ -58,21 +58,72 @@
     height: auto;
     color: var(--color-primario);
     text-align: center;
+    padding: 0px;
+    
+}
+
+#la-empresa .container,
+#la-empresa .row,
+#la-empresa .col-md{
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+#la-empresa .col{
+    padding-left: 0px;
+    padding-right: 0px;
 }
 
 #la-empresa p{
     color: var(--color-gris-claro);
 }
 
+#la-empresa img{
+  width: 30em;
+  height: 100%;
+  transition: all 0.5s ease-in-out;
+  padding-bottom: 0px;
+}
+
+#la-empresa img:hover {
+  filter: sepia(60%);
+}
+
 /* Proyectos*/
 #proyectos{
     background-color: var(--color-gris-claro2);
-    height: 50vh;
+    height: auto;
+    padding-bottom: 0px;
+    
+}
+
+#proyectos .col{
+padding: 0%;
+
+  
+}
+
+#proyectos .imagenes img{
+  width: auto;
+  padding: 0%;
+  margin: 0%;
+  height: 200px;
+  width: 30em;
+  height: 100%;
+  transition: all 0.5s ease-in-out;
+  padding-bottom: 0px;
+}
+
+
+#proyectos img:hover {
+  filter: sepia(60%);
 }
 
 /* Beneficios */
 #beneficios {
-    background-color: var(--color-acento);
+    background-color: var(--color-gris-claro2);
     height: 50vh;
 }
 
@@ -98,53 +149,4 @@
 
 
 /* Contacto */
-
-/* Footer */
-
-.footer {
-    padding: 100px 20px;
-    background-color: #000;
-    color: #777;
-    width: 100%;
-    overflow: hidden;
-}
-
-.footer p{
-    text-align: left;
-    width: auto;
-    padding: 40px;
-    
-}
-
-.footer .footer-site-logo img{
-  align-items: center;
-  justify-content: center;
-  width: 10rem;
-  padding-bottom: 50px;
-}
-
-.footer .nav-links li {
-    margin-bottom: 10px; }
-
-.footer .nav-links li a {
-    color: gray; }
-
-.footer .nav-links li a:hover {
-    color: #fff; }
-
-.footer .social li {
-    display: inline-block; }
-
-.footer .social li a {
-    color: gray;
-    padding: 10px; }
-
-.footer .social li a:hover {
-    color: #fff; }
-
-.footer .copyright {
-    border-top: 1px solid #404040; }
-  
-
-  
 
