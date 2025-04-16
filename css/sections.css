@@ -24,6 +24,11 @@
     margin-top: 0%;
 }
 
+.card-body-content{
+  display: flex;
+  flex-direction: row;
+}
+
 #servicios h2{
   margin-top: 0%;
   padding-bottom: 10px;

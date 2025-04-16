@@ -11,11 +11,15 @@
 --fuente-primaria: 'Poppins', sans-serif;
 
 /* Tamaños de texto */
+--extra-small: 12px;
 --small: 14px;
---normal: 16px;
---medium: 24px;
---large: 36px;
-
+--medium: 16px;
+--large: 18px;
+--extra-large: 20px;
+--extra-large-2: 24px;
+--extra-large-3: 30px;
+--extra-large-4: 36px;
+--extra-large-5: 48px;
 
 /* ----PALETA DE COLORES---- */
 

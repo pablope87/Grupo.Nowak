@@ -30,7 +30,7 @@ line-height: 1.6;
 /* titles */
 .title{
     font-family: var(--fuente-primaria);
-    font-size: var(--large);
+    font-size: var(--extra-large-4);
     padding-bottom: 0px;
     font-weight: 800;
     margin-bottom: 20px;
@@ -52,6 +52,10 @@ line-height: 1.6;
 }
 
 /* Subtitles */
+.subtitle-extra-small{
+    font-size: var(--extra-small);
+}
+
 .subtitle-small{
     font-family: var(--fuente-primaria);
     font-size: var(--small);
