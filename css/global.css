@@ -9,7 +9,7 @@ background-color: var(--color-primario);
 
 /* SECTIONS */
 section{
-    padding: 100px 20px;
+    padding: 0px 20px;
     overflow: hidden;
     text-align: center;
     width: 100%;
@@ -51,6 +51,10 @@ line-height: 1.6;
     font-weight: 800;
 }
 
+.dot {
+    color: var(--color-acento); 
+  }
+
 /* Subtitles */
 .subtitle-extra-small{
     font-size: var(--extra-small);
@@ -59,6 +63,7 @@ line-height: 1.6;
 .subtitle-small{
     font-family: var(--fuente-primaria);
     font-size: var(--small);
+    padding-bottom: 50px;
 }
 
 .subtitle-medium{

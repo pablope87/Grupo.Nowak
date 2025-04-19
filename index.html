@@ -36,6 +36,8 @@
     <script src="https://kit.fontawesome.com/075ba794c5.js" crossorigin="anonymous"></script> 
     <!-- Font Awesome para íconos -->
     <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <!-- Whatsapp button -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 
 </head>
 
@@ -61,16 +63,22 @@
   </header>
   
   <main>
+
+    <!-- Whatsapp button -->
+    <a href="https://wa.me/+5491125234747?text=Hola,%20quisiera%20más%20información%20sobre%20las%20propiedades%20de%20su%20web." class="float" target="_blank">
+      <i class="fa fa-whatsapp my-float"></i>
+      </a>
+
     <!-- Hero-->
     <section id="hero">
-      <h1 class="title">Tu Hogar, Tu Mejor Inversión.</h1>
+      <h1 class="title">Tu Hogar, Tu Mejor Inversión<span class="dot">.</span></h1>
       <h2 class="subtitle">Te ayudamos a encontrar el espacio perfecto para tu futuro.</h2>
       <button type="button" class="btn">DESCUBRÍ MÁS</button>
     </section>
 
   <!--Servicios-->
   <section id="servicios">
-      <h2 class="title">Te Acercamos A Tu Nuevo Hogar</h2>
+      <h2 class="title">Te Acercamos A Tu Nuevo Hogar<span class="dot">.</span></h2>
       <p class="subtitle-small">Con nuestro equipo de expertos, encontrar la propiedad ideal es más fácil que nunca</p>
       
       <div class="row row-cols-1 row-cols-md-3 g-4">
@@ -82,7 +90,7 @@
                 <div class="card-body-content">
 
                   <div class="card-body-content-ico">
-                    <i class="bi bi-chat-square-quote-fill fs-1"></i>
+                    <i class="bi bi-arrow-down-right-square-fill"></i>
                   </div>
 
                   <div class="card-body-content-title-and-sub">
@@ -131,7 +139,7 @@
           <img src="./img/imagenes/la-empresa.jpg" alt="imagen">
         </div>
         <div class="col-md">
-          <h2 class="title">Nuestra Empresa</h2>
+          <h2 class="title">Nuestra Empresa<span class="dot">.</span></h2>
           <p class="subtitle-small">Con nuestro equipo de expertos, encontrar la propiedad ideal es más fácil que nunca</p>
           <h5 class="title-small">VISIÓN</h5>
           <p class="subtitle-small">Te ayudamos a encontrar el espacio perfecto para tu futuro.</p>
@@ -145,7 +153,7 @@
 
   <!-- Proyectos -->
   <section id="proyectos" >
-    <h2 class="title">Proyectos Recientes</h2>
+    <h2 class="title">Proyectos Recientes<span class="dot">.</span></h2>
     <p class="subtitle-small">Con nuestro equipo de expertos, encontrar la propiedad ideal es más fácil que nunca</p>
 
     <div class="imagenes">
@@ -166,16 +174,12 @@
     </div>
   </section>
 
-  <!-- Beneficios -->
-  <section id="beneficios">
-    <h2 class="title">Beneficios</h2>
-    <p class="subtitle-small">Con nuestro equipo de expertos, encontrar la propiedad ideal es más fácil que nunca</p>
-  </section>
 
   <!-- Testimonios -->
   <section id="testimonios">
     <div class="container">
-      <h2 class="title">Nuestro clientes dicen</h2>
+      <h2 class="title">Testimonios<span class="dot">.</span></h2>
+      <p class="subtitle-small">Con nuestro equipo de expertos, encontrar la propiedad ideal es más fácil que nunca</p>
         <div class="row">
             <div class="col-md-4 mb-4">
                 <div class="card">
@@ -238,7 +242,37 @@
   <!-- Sección 6: Contacto -->
 
   <section id="contacto">
-    <h3>CONTACTO</h3>
+    <h2 class="title">Hablemos De Tu Próxima Propiedad<span class="dot">.</span></h2>
+    <p class="subtitle-small">Te acompañamos en cada paso para encontrar el hogar que soñás</p>
+    
+    <div class="contact-container">
+      <div class="contact-form">
+        <h2>Informacíon de contacto</h2>
+        <!-- <p>Elegí la forma que quieras para contactarnos</p> -->
+        
+        <div class="contact-info">
+          <div><h5 class="title-small">DIRECCIÓN</h5><br>Av. de Mayo 1234 - CABA<br>Buenos Aires - Argentina</div>
+          <div><h5 class="title-small">E-MAIL</h5><br>contacto@gruponowak.com</div>
+          <div><h5 class="title-small">TELÉFONO</h5><br>+549 110123123</div>
+        </div>
+  
+        <form>
+          <input type="text" placeholder="Nombre" required />
+          <input type="email" placeholder="Email" required />
+          <input type="text" placeholder="Asunto" required />
+          <textarea placeholder="Escriba su mensaje" required></textarea>
+          <button class="btn" type="submit">ENVIAR</button>
+        </form>
+  
+
+      </div>
+  
+      <div class="contact-image">
+        <img src="./img/imagenes/proyectos3.jpg" alt="Contact background"/>
+      </div>
+    </div>
+
+
   </section>
 
 <!-- FOOTER -->
@@ -275,7 +309,7 @@
           <li><a href="#"><i class="fab fa-x-twitter"></i></a></li>
           <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
         </ul>
-        <button type="button" class="btn">CONTACTAR</button>
+        <button type="button" class="btn"> <i class="fa-brands fa-whatsapp" style="color: #ffffff;"></i>WHATSAPP</button>
       </div>
 
     </div>
