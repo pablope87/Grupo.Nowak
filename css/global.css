@@ -2,7 +2,7 @@
 /* ---- GLOBAL ---- */
 
 body {
-font-family: var(--fuente-primaria);
+font-family: var(--fuente-primaria), sans-serif;
 font-size: var(--tamano-texto-normal);
 background-color: var(--color-primario);
 }
@@ -41,7 +41,15 @@ line-height: 1.6;
     font-family: var(--fuente-primaria);
     font-size: var(--small);
     padding-bottom: 0px;
-    font-weight: 800;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+}
+
+.title-extra-small{
+    font-family: var(--fuente-primaria);
+    font-size: var(--extra-small);
+    padding-bottom: 0px;
+    font-weight: 600;
 }
 
 .title-medium{
@@ -53,7 +61,7 @@ line-height: 1.6;
 
 .dot {
     color: var(--color-acento); 
-  }
+}
 
 /* Subtitles */
 .subtitle-extra-small{
@@ -88,6 +96,5 @@ line-height: 1.6;
     font-size: var(--medium);
     padding-bottom: 30px;
 }
-
 
 

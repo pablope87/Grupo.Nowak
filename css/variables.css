@@ -27,20 +27,11 @@
 --color-primario: #141D26;
 --color-secundario: #E2E2D2;
 --color-acento: #C51F5D;
+--color-acento-hover: #902a4f;
 --color-gris: #3e3e3e;
 --color-gris-claro: #949393;
 --color-gris-claro2: #f5f5f5;
 --color-blanco: #ffffff;
-
-/* Colores de fondo */
---color-fondo: #;
---color-fondo-secundario: #;
---color-superficie: #;
-
-/* Colores de texto */
---color-texto: #;
---color-texto-secundario: #;
---color-texto-inverso: #;
 
 /* Colores de estado */
 --color-exito: #28a745;
